@@ -2,7 +2,7 @@
 Program: This script processes a song dataset from a CSV file and populates an SQLite database 
 with normalized tables for songs, artists, genres, and their relationships.
 
-Developed by F128607 on 15/01/25.
+Developed by Christian on 15/01/25.
 
 Usage: Update 'csv_path' with the path to the dataset. Running this script creates a 
 database file 'CWDatabase.db' and populates it with preprocessed data.
