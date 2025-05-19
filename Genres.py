@@ -3,7 +3,7 @@ Program: Genre Statistics Analyzer
 This script analySes and visualiSes song genre statistics for a specified 
 year from an SQLite database.
 
-Developed by F128607 on 15/01/25.
+Developed by Christian on 15/01/25.
 
 Usage: Ensure the SQLite database is in the same directory. 
 Run the script and provide a year between 1998 and 2020 when prompted. 
