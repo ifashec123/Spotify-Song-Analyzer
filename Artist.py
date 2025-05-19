@@ -3,7 +3,7 @@ Program: Artist Popularity Analyzer
 This script analyses and compares an artist's popularity against overall genre 
 popularity from the SQLite database.
 
-Developed by F128607 on 15/01/25.
+Developed by Christian on 15/01/25.
 
 Usage: Ensure the SQLite database ('CWDatabase.db' for this case) is in the same directory. 
 Run the script and input the artist's name when prompted.
