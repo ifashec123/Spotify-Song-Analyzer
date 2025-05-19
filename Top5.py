@@ -10,7 +10,7 @@ This program connects to an SQLite database to calculate and display artist rank
 based on song count and popularity over a specified year range (1998-2020). Results 
 are shown in a table and visualised in a line chart.
 
-Written by: F128607
+Written by: Christian
 Date: 18/01/25
 """
 
