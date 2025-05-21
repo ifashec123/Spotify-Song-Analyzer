@@ -18,7 +18,7 @@
 ---
 
 ## 📦 Dataset Overview  
-- **Source:** [Kaggle – Spotify Top Hits (2000–2019)](https://www.kaggle.com/)
+- **Source:** [Kaggle – Spotify Top Hits (2000–2019)](https://www.kaggle.com/datasets/paradisejoy/top-hits-spotify-from-20002019)
 - **Size:** ~2,000 tracks  
 - **Features Include:**
   - **Metadata:** Song name, artist, year, genre, popularity  
@@ -28,7 +28,7 @@
 
 ## 🚀 What I Built
 
-### 🔧 1. Data Preprocessing & Database Creation (`Preprocessing.py`)
+### 🔧 1. Data Preprocessing & Database Creation ([`Preprocessing.py`](./Preprocessing.py))
 - Implements a full ETL pipeline to clean and transform the raw dataset
 - Filters: popularity > 50, speechiness between 0.33–0.66, danceability > 0.2
 - Stores data in a **fully normalized SQLite database** with `Songs`, `Artists`, `Genres`, and a junction table
@@ -39,25 +39,25 @@
 - Supports one-to-many and many-to-many relationships
 - Optimised for fast querying and scalability
 
-### 📊 3. Genre Statistics Analysis (`Genres.py`)
+### 📊 3. Genre Statistics Analysis ([`Genres.py`](./Genres.py))
 - Calculates genre-based metrics by year: popularity, danceability, distribution
 - Interactive input for year selection (1998–2020)
 - Generates **publication-ready** pie charts and bar plots using `Matplotlib`
 - Includes year validation, error handling, and smart SQL joins
 
-### 🎤 4. Artist Popularity Comparison (`Artist.py`)
+### 🎤 4. Artist Popularity Comparison ([`Artist.py`](./Artist.py))
 - Benchmarks an artist's average popularity against genre averages
 - Produces dual-bar charts and data tables with dynamic highlights
 - Handles case sensitivity and missing data gracefully
 - Uses aggregate SQL functions and efficient joins
 
-### 🏆 5. Top 5 Artist Ranking Tool (`Top5.py`)
+### 🏆 5. Top 5 Artist Ranking Tool ([`Top5.py`](./Top5.py))
 - Ranks artists using a **weighted formula**: 60% by song count, 40% by average popularity
 - Accepts custom year ranges and highlights top performers annually
 - Includes interactive validation and trend line visualisations
 - Interpolates missing values to smooth visuals
 
-### 🧩 6. Interactive Analysis Dashboard (`menu.ipynb`)
+### 🧩 6. Interactive Analysis Dashboard ([`menu.ipynb`](./menu.ipynb))
 - Combines all core scripts into one Jupyter Notebook with `ipywidgets`
 - Clean GUI with dropdowns, sliders, and text input
 - Allows users to explore data insights **without touching code**
